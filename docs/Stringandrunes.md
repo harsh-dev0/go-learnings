@@ -23,7 +23,7 @@ fmt.Println(len(s)) // Output: 8 (because of multi-byte UTF-8 characters)
 
 ## Runes
 
-- A rune is an alias for `int32` and represents a Unicode code point.
+- A rune is an alias for `int32` and represents a Unicode code point(A Unicode code point is just a number that uniquely identifies a character in the Unicode standard).
 - To get the number of runes (characters) in a string, use `utf8.RuneCountInString()` from the `unicode/utf8` package.
 
 ```go
